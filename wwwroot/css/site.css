@@ -14,4 +14,7 @@ footer {
 #header-logo{
   width: 100%;
 }
+p {
+  max-width: 80ch;
+}
 
