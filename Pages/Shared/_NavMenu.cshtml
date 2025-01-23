@@ -1,14 +1,21 @@
 <!-- SIDE MENU -->
-<div id="side-menu" class="d-none d-lg-block w-25 p-2">
-    <ul class="navbar-nav flex-grow-1 text-center">
-        <li class="nav-item">
-            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-dark" asp-area="" asp-page="/Razor">Razor</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-dark" asp-area="" asp-page="/About">Om Sidan</a>
-        </li>
-    </ul>
+<div id="side-menu" class="w-md-auto p-2">
+    <button id="menu-btn">
+        <span class="menu-bar-1"></span>
+        <span class="menu-bar-2"></span>
+        <span class="menu-bar-3"></span>
+    </button>
+    <nav id="side-menu-nav">
+        <ul class="navbar-nav flex-grow-1 text-center">
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-page="/Razor">Razor</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-page="/About">Om utvecklaren</a>
+            </li>
+        </ul>
+    </nav>
 </div>
