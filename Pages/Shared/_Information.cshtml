@@ -1,0 +1,14 @@
+@{
+    DateTime now = DateTime.Now;
+    var dayOfWeek = DateTime.Today.DayOfWeek.ToString();
+}
+
+<div>
+    <h2>Information</h2>
+    <p>Datum/klockslag: @(now)</p>
+    @if(dayOfWeek == "Friday") {
+        <p>Idag är de fredag!</p>
+    } else {
+        <p>Idag är det inte fredag :(</p>
+    }
+</div>

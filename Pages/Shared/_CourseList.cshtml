@@ -1,0 +1,24 @@
+@{
+    string[] courses = {"DT084G, Introduktion till programmering i JavaScript",
+                        "DT057G, Webbutveckling I",
+                        "DT200G, Grafisk teknik för webb",
+                        "DT068G, Webbanvändbarhet",
+                        "DT207G, Backend-baserad webbutveckling",
+                        "DT208G, Programmering i TypeScipt",
+                        "DT003G, Databaser",
+                        "DT211G, Frontend-baserad webbutveckling",
+                        "DT071G, Programmering i C#.NET",
+                        "DT193G, Fullstack-utveckling med ramverk",
+                        "IK060G, Projektledning",
+                        "DT209G, Webbutveckling för WordPress"};
+    List<string> courseList = new List<string>(courses);
+}
+
+<div>
+    <h2>Kurser jag läst</h2>
+    <ul>
+        @foreach(string course in courseList) {
+            <li>@course</li>
+        }
+    </ul>
+</div>
