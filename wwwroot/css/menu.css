@@ -57,13 +57,14 @@
 @media (min-width: 850px) {
     #side-menu {
         border-right: 2px solid var(--primary);
+        
     }
     #menu-btn {
         display: none;
     }
     #side-menu-nav {
         width: fit-content;
-        min-width: 20ch;
+        margin-right: 0.5em;
         display: block;
     }
 }
