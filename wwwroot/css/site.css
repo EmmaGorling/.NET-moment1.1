@@ -1,19 +1,7 @@
 @import url(menu.css);
+@import url(header_footer.css);
 
-header {
-  border-bottom: 2px solid #690f35;
-}
-footer {
-  border-top: 2px solid #690f35;
-}
-#logo-link {
-  width: 50%;
-  min-width: 100px;
-  max-width: 200px;
-}
-#header-logo{
-  width: 100%;
-}
+
 p {
   max-width: 80ch;
 }

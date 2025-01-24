@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="~/moment1._1.styles.css" asp-append-version="true" />
 </head>
 <body class="d-flex flex-column min-vh-100">
-    <header>
+    <header class="">
         <div class="container d-flex justify-content-between">
             <a id="logo-link" asp-area="" asp-page="/Index"><img id="header-logo" src="~/Logga_lila.svg" alt="Logga Emma Görling"></a>
             <partial name="_Date" />
@@ -18,8 +18,8 @@
     </header>
 
     <div class="container">
-        <main role="main" class="py-3">
-            <div class="d-md-flex ">
+        <main role="main" class="">
+            <div class="d-md-flex py-3">
                 <!-- SIDE MENU -->
                 <div id="side-menu" class="w-md-auto p-2">
                     <button id="menu-btn">
@@ -30,13 +30,13 @@
                     <nav id="side-menu-nav">
                         <ul class="navbar-nav flex-grow-1 text-center">
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                                <a class="nav-link text-dark link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" asp-area="" asp-page="/Index">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-page="/Razor">Razor</a>
+                                <a class="nav-link text-dark link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" asp-area="" asp-page="/Razor">Razor</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-page="/About">Om utvecklaren</a>
+                                <a class="nav-link text-dark link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" asp-area="" asp-page="/About">Om utvecklaren</a>
                             </li>
                         </ul>
                     </nav>
@@ -48,7 +48,7 @@
 
     <footer class=" footer text-muted mt-auto">
         <div class="container text-center">
-            <p class="mt-3 mx-auto">Av Emma Ådahl Görling - Kontakta mig via e-post: <a class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="mailto:adahl.gorling@gmail.com">adahl.gorling@@gmail.com</a></p>
+            <p class="mt-3 mx-auto text-dark">Av Emma Ådahl Görling - Kontakta mig via e-post: <a class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="mailto:adahl.gorling@gmail.com">adahl.gorling@@gmail.com</a></p>
         </div>
     </footer>
 
